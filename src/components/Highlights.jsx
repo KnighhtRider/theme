@@ -40,7 +40,7 @@ function Highlights() {
         position: "relative",
         left: "-302.5px",
         boxSizing: "border-box",
-        width: "1349px",
+        width: "100%",
         maxWidth: "1349px",
         paddingLeft: "89.5px",
         paddingRight: "89.5px",
@@ -252,12 +252,29 @@ function Highlights() {
         </div>
 
         {/* Payment Plan */}
-        <div className="payment-plan">
-          {/* Content for payment plan */}
-          <h2 className="area-pricing-heading">PAYMENT PLAN</h2>
-          <p>Details about the payment plan...</p>
+        <div className="payment-schedule-container">
+          <h2 className="payment-schedule-heading">PAYMENT SCHEDULE</h2>
+
+          <div className="vc-empty-space"></div>
+
+          <div className="payment-icon-container">
+            <img
+              className="payment-img-icon"
+              alt="Costing Details"
+              src="https://24estate.in/chandakchembureast/wp-content/uploads/costing-details-4-1-1.webp"
+            />
+          </div>
+
+          <div className="vc-empty-space"></div>
+
+          <button type="button" className="costing-button">
+            Get Complete Costing Details
+          </button>
+
         </div>
+
       </div>
+      <div className="vc-empty-space high-space"></div>
     </div>
   );
 }

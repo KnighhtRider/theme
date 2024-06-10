@@ -173,7 +173,6 @@ button, input, select, textarea {
   height: 1px;
   padding: 0;
   margin: -1px;
-  overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
@@ -366,7 +365,7 @@ a {
   font-variant: normal;
   line-height: 1;
   text-rendering: auto;
-}
+} 
 
 ul li {
   display: inline-block;

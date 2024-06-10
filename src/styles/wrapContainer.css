@@ -70,12 +70,6 @@
   padding-bottom: 40px;
 }
 
-.vc_row[data-vc-full-width] {
-  -webkit-transition: opacity .5s ease;
-  -o-transition: opacity .5s ease;
-  transition: opacity .5s ease;
-  overflow: hidden;
-}
 @media (min-width: 1200px) and (max-width: 1823px) {
   .uvc_hidden-ml {
       display: none !important;
@@ -106,9 +100,7 @@
   left: 0;
   z-index: 0;
 }
-.upb_row_bg, .upb_video-bg, .vcpb-fs-jquery {
-  overflow: hidden;
-}
+
 
 .upb_video_class, .wpb_column, .wpb_row {
   position: relative;

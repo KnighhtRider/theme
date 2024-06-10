@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/wrapContainer.css";
 import Background from "./Background";
 import Highlights from "./Highlights";
+import Amenities from "./Amenities";
 
 function WrapContainer() {
   return (
@@ -13,6 +14,7 @@ function WrapContainer() {
               <div className="entry-content">
                 <Background />
                 <Highlights />
+                <Amenities />
               </div>
             </div>
           </div>

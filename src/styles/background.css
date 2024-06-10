@@ -1,9 +1,4 @@
-.vc_row[data-vc-full-width] {
-  -webkit-transition: opacity .5s ease;
-  -o-transition: opacity .5s ease;
-  transition: opacity .5s ease;
-  overflow: hidden;
-}
+
 .upb_video_class, .wpb_column, .wpb_row {
   position: relative;
 }
@@ -46,9 +41,7 @@
 .upb_video-bg, .vcpb-default, .vcpb-fix, .vcpb-hz-jquery, .vcpb-vz-jquery, .vertical_layer_parallax {
   background-repeat: no-repeat;
 }
-.upb_row_bg, .upb_video-bg, .vcpb-fs-jquery {
-  overflow: hidden;
-}
+
 
 .upb-background-text-wrapper, .upb_video-text, .upb_video-text-wrapper {
   position: relative;
